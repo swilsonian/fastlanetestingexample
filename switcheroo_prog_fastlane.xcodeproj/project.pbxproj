@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		0B270DD71B68AF1800A595E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B270DD61B68AF1800A595E7 /* AppDelegate.swift */; };
 		0B270DD91B68AF1800A595E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B270DD81B68AF1800A595E7 /* ViewController.swift */; };
-		0B270DDC1B68AF1800A595E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B270DDA1B68AF1800A595E7 /* Main.storyboard */; };
 		0B270DDE1B68AF1800A595E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B270DDD1B68AF1800A595E7 /* Images.xcassets */; };
 		0B270DE11B68AF1800A595E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B270DDF1B68AF1800A595E7 /* LaunchScreen.xib */; };
 		0B270DED1B68AF1800A595E7 /* switcherooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B270DEC1B68AF1800A595E7 /* switcherooTests.swift */; };
+		0B270DF91B68B09B00A595E7 /* GreyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B270DF81B68B09B00A595E7 /* GreyController.swift */; };
+		0B270DFB1B68B9A900A595E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B270DFA1B68B9A900A595E7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B270DD11B68AF1800A595E7 /* switcheroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switcheroo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B270DD11B68AF1800A595E7 /* switcheroo_programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switcheroo_programmatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B270DD51B68AF1800A595E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B270DD61B68AF1800A595E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B270DD81B68AF1800A595E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0B270DDB1B68AF1800A595E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B270DDD1B68AF1800A595E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0B270DE01B68AF1800A595E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0B270DE61B68AF1800A595E7 /* switcherooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switcherooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B270DE61B68AF1800A595E7 /* switcheroo_programmaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switcheroo_programmaticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B270DEB1B68AF1800A595E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B270DEC1B68AF1800A595E7 /* switcherooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switcherooTests.swift; sourceTree = "<group>"; };
+		0B270DF81B68B09B00A595E7 /* GreyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyController.swift; sourceTree = "<group>"; };
+		0B270DFA1B68B9A900A595E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +70,8 @@
 		0B270DD21B68AF1800A595E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B270DD11B68AF1800A595E7 /* switcheroo.app */,
-				0B270DE61B68AF1800A595E7 /* switcherooTests.xctest */,
+				0B270DD11B68AF1800A595E7 /* switcheroo_programmatic.app */,
+				0B270DE61B68AF1800A595E7 /* switcheroo_programmaticTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +79,10 @@
 		0B270DD31B68AF1800A595E7 /* switcheroo */ = {
 			isa = PBXGroup;
 			children = (
+				0B270DFA1B68B9A900A595E7 /* Main.storyboard */,
 				0B270DD61B68AF1800A595E7 /* AppDelegate.swift */,
 				0B270DD81B68AF1800A595E7 /* ViewController.swift */,
-				0B270DDA1B68AF1800A595E7 /* Main.storyboard */,
+				0B270DF81B68B09B00A595E7 /* GreyController.swift */,
 				0B270DDD1B68AF1800A595E7 /* Images.xcassets */,
 				0B270DDF1B68AF1800A595E7 /* LaunchScreen.xib */,
 				0B270DD41B68AF1800A595E7 /* Supporting Files */,
@@ -115,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B270DD01B68AF1800A595E7 /* switcheroo */ = {
+		0B270DD01B68AF1800A595E7 /* switcheroo_programmatic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B270DF01B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo" */;
+			buildConfigurationList = 0B270DF01B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_programmatic" */;
 			buildPhases = (
 				0B270DCD1B68AF1800A595E7 /* Sources */,
 				0B270DCE1B68AF1800A595E7 /* Frameworks */,
@@ -127,14 +130,14 @@
 			);
 			dependencies = (
 			);
-			name = switcheroo;
+			name = switcheroo_programmatic;
 			productName = switcheroo;
-			productReference = 0B270DD11B68AF1800A595E7 /* switcheroo.app */;
+			productReference = 0B270DD11B68AF1800A595E7 /* switcheroo_programmatic.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B270DE51B68AF1800A595E7 /* switcherooTests */ = {
+		0B270DE51B68AF1800A595E7 /* switcheroo_programmaticTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B270DF31B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcherooTests" */;
+			buildConfigurationList = 0B270DF31B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_programmaticTests" */;
 			buildPhases = (
 				0B270DE21B68AF1800A595E7 /* Sources */,
 				0B270DE31B68AF1800A595E7 /* Frameworks */,
@@ -145,9 +148,9 @@
 			dependencies = (
 				0B270DE81B68AF1800A595E7 /* PBXTargetDependency */,
 			);
-			name = switcherooTests;
+			name = switcheroo_programmaticTests;
 			productName = switcherooTests;
-			productReference = 0B270DE61B68AF1800A595E7 /* switcherooTests.xctest */;
+			productReference = 0B270DE61B68AF1800A595E7 /* switcheroo_programmaticTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +159,9 @@
 		0B270DC91B68AF1800A595E7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = swilson;
 				TargetAttributes = {
 					0B270DD01B68AF1800A595E7 = {
@@ -168,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0B270DCC1B68AF1800A595E7 /* Build configuration list for PBXProject "switcheroo" */;
+			buildConfigurationList = 0B270DCC1B68AF1800A595E7 /* Build configuration list for PBXProject "switcheroo_programmatic" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +186,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B270DD01B68AF1800A595E7 /* switcheroo */,
-				0B270DE51B68AF1800A595E7 /* switcherooTests */,
+				0B270DD01B68AF1800A595E7 /* switcheroo_programmatic */,
+				0B270DE51B68AF1800A595E7 /* switcheroo_programmaticTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,7 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B270DDC1B68AF1800A595E7 /* Main.storyboard in Resources */,
+				0B270DFB1B68B9A900A595E7 /* Main.storyboard in Resources */,
 				0B270DE11B68AF1800A595E7 /* LaunchScreen.xib in Resources */,
 				0B270DDE1B68AF1800A595E7 /* Images.xcassets in Resources */,
 			);
@@ -212,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B270DF91B68B09B00A595E7 /* GreyController.swift in Sources */,
 				0B270DD91B68AF1800A595E7 /* ViewController.swift in Sources */,
 				0B270DD71B68AF1800A595E7 /* AppDelegate.swift in Sources */,
 			);
@@ -230,20 +236,12 @@
 /* Begin PBXTargetDependency section */
 		0B270DE81B68AF1800A595E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B270DD01B68AF1800A595E7 /* switcheroo */;
+			target = 0B270DD01B68AF1800A595E7 /* switcheroo_programmatic */;
 			targetProxy = 0B270DE71B68AF1800A595E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0B270DDA1B68AF1800A595E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B270DDB1B68AF1800A595E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0B270DDF1B68AF1800A595E7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,6 +274,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -344,7 +343,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = switcheroo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = switcheroo_programmatic;
 			};
 			name = Debug;
 		};
@@ -354,7 +354,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = switcheroo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = switcheroo_programmatic;
 			};
 			name = Release;
 		};
@@ -372,7 +373,8 @@
 				);
 				INFOPLIST_FILE = switcherooTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = switcheroo_programmaticTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switcheroo.app/switcheroo";
 			};
 			name = Debug;
@@ -387,7 +389,8 @@
 				);
 				INFOPLIST_FILE = switcherooTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = switcheroo_programmaticTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switcheroo.app/switcheroo";
 			};
 			name = Release;
@@ -395,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B270DCC1B68AF1800A595E7 /* Build configuration list for PBXProject "switcheroo" */ = {
+		0B270DCC1B68AF1800A595E7 /* Build configuration list for PBXProject "switcheroo_programmatic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B270DEE1B68AF1800A595E7 /* Debug */,
@@ -404,21 +407,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B270DF01B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo" */ = {
+		0B270DF01B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_programmatic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B270DF11B68AF1800A595E7 /* Debug */,
 				0B270DF21B68AF1800A595E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0B270DF31B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcherooTests" */ = {
+		0B270DF31B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_programmaticTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B270DF41B68AF1800A595E7 /* Debug */,
 				0B270DF51B68AF1800A595E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
