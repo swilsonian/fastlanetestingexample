@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0047D91CDF40F00098A811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0047D71CDF40F00098A811 /* Main.storyboard */; };
+		0B0047E21CDF41B80098A811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B0047E41CDF41B80098A811 /* InfoPlist.strings */; };
+		0B0047E71CDF41B80098A811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B0047E91CDF41B80098A811 /* InfoPlist.strings */; };
+		0B0047EC1CDF41B80098A811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B0047EE1CDF41B80098A811 /* InfoPlist.strings */; };
 		0B270DD71B68AF1800A595E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B270DD61B68AF1800A595E7 /* AppDelegate.swift */; };
 		0B270DD91B68AF1800A595E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B270DD81B68AF1800A595E7 /* ViewController.swift */; };
 		0B270DDE1B68AF1800A595E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B270DDD1B68AF1800A595E7 /* Images.xcassets */; };
 		0B270DE11B68AF1800A595E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B270DDF1B68AF1800A595E7 /* LaunchScreen.xib */; };
 		0B270DED1B68AF1800A595E7 /* switcherooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B270DEC1B68AF1800A595E7 /* switcherooTests.swift */; };
 		0B270DF91B68B09B00A595E7 /* GreyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B270DF81B68B09B00A595E7 /* GreyController.swift */; };
-		0B270DFB1B68B9A900A595E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B270DFA1B68B9A900A595E7 /* Main.storyboard */; };
+		0B6E44A31CDF100F00A4449F /* fs_screenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E44A21CDF100F00A4449F /* fs_screenshots.swift */; };
+		0B6E44AB1CDF128B00A4449F /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E44AA1CDF128B00A4449F /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,20 +29,41 @@
 			remoteGlobalIDString = 0B270DD01B68AF1800A595E7;
 			remoteInfo = switcheroo;
 		};
+		0B6E44A51CDF100F00A4449F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B270DC91B68AF1800A595E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B270DD01B68AF1800A595E7;
+			remoteInfo = switcheroo_prog_fastlane;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B270DD11B68AF1800A595E7 /* switcheroo_programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switcheroo_programmatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0047CB1CDF3D5D0098A811 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0B0047CC1CDF3D630098A811 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0B0047D81CDF40F00098A811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B0047DD1CDF41060098A811 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		0B0047DF1CDF41070098A811 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		0B0047E31CDF41B80098A811 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0B0047E81CDF41B80098A811 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0B0047ED1CDF41B80098A811 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0B0047EF1CDF41D50098A811 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0B0047F01CDF41D50098A811 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0B0047F11CDF41D60098A811 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0B270DD11B68AF1800A595E7 /* switcheroo_prog_fastlane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switcheroo_prog_fastlane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B270DD51B68AF1800A595E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B270DD61B68AF1800A595E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B270DD81B68AF1800A595E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B270DDD1B68AF1800A595E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0B270DE01B68AF1800A595E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0B270DE61B68AF1800A595E7 /* switcheroo_programmaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switcheroo_programmaticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B270DE61B68AF1800A595E7 /* switcheroo_prog_fastlane.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switcheroo_prog_fastlane.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B270DEB1B68AF1800A595E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B270DEC1B68AF1800A595E7 /* switcherooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switcherooTests.swift; sourceTree = "<group>"; };
 		0B270DF81B68B09B00A595E7 /* GreyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreyController.swift; sourceTree = "<group>"; };
-		0B270DFA1B68B9A900A595E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0B6E44A01CDF100F00A4449F /* fs_screenshots.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fs_screenshots.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6E44A21CDF100F00A4449F /* fs_screenshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fs_screenshots.swift; sourceTree = "<group>"; };
+		0B6E44A41CDF100F00A4449F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B6E44AA1CDF128B00A4449F /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +81,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B6E449D1CDF100F00A4449F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +96,7 @@
 			children = (
 				0B270DD31B68AF1800A595E7 /* switcheroo */,
 				0B270DE91B68AF1800A595E7 /* switcherooTests */,
+				0B6E44A11CDF100F00A4449F /* fs_screenshots */,
 				0B270DD21B68AF1800A595E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,8 +104,9 @@
 		0B270DD21B68AF1800A595E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B270DD11B68AF1800A595E7 /* switcheroo_programmatic.app */,
-				0B270DE61B68AF1800A595E7 /* switcheroo_programmaticTests.xctest */,
+				0B270DD11B68AF1800A595E7 /* switcheroo_prog_fastlane.app */,
+				0B270DE61B68AF1800A595E7 /* switcheroo_prog_fastlane.xctest */,
+				0B6E44A01CDF100F00A4449F /* fs_screenshots.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +114,7 @@
 		0B270DD31B68AF1800A595E7 /* switcheroo */ = {
 			isa = PBXGroup;
 			children = (
-				0B270DFA1B68B9A900A595E7 /* Main.storyboard */,
+				0B0047D71CDF40F00098A811 /* Main.storyboard */,
 				0B270DD61B68AF1800A595E7 /* AppDelegate.swift */,
 				0B270DD81B68AF1800A595E7 /* ViewController.swift */,
 				0B270DF81B68B09B00A595E7 /* GreyController.swift */,
@@ -93,6 +128,7 @@
 		0B270DD41B68AF1800A595E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0B0047E91CDF41B80098A811 /* InfoPlist.strings */,
 				0B270DD51B68AF1800A595E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,17 +146,29 @@
 		0B270DEA1B68AF1800A595E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0B0047EE1CDF41B80098A811 /* InfoPlist.strings */,
 				0B270DEB1B68AF1800A595E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0B6E44A11CDF100F00A4449F /* fs_screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0B0047E41CDF41B80098A811 /* InfoPlist.strings */,
+				0B6E44AA1CDF128B00A4449F /* SnapshotHelper.swift */,
+				0B6E44A21CDF100F00A4449F /* fs_screenshots.swift */,
+				0B6E44A41CDF100F00A4449F /* Info.plist */,
+			);
+			path = fs_screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B270DD01B68AF1800A595E7 /* switcheroo_programmatic */ = {
+		0B270DD01B68AF1800A595E7 /* switcheroo_prog_fastlane */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B270DF01B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_programmatic" */;
+			buildConfigurationList = 0B270DF01B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_prog_fastlane" */;
 			buildPhases = (
 				0B270DCD1B68AF1800A595E7 /* Sources */,
 				0B270DCE1B68AF1800A595E7 /* Frameworks */,
@@ -130,14 +178,14 @@
 			);
 			dependencies = (
 			);
-			name = switcheroo_programmatic;
+			name = switcheroo_prog_fastlane;
 			productName = switcheroo;
-			productReference = 0B270DD11B68AF1800A595E7 /* switcheroo_programmatic.app */;
+			productReference = 0B270DD11B68AF1800A595E7 /* switcheroo_prog_fastlane.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B270DE51B68AF1800A595E7 /* switcheroo_programmaticTests */ = {
+		0B270DE51B68AF1800A595E7 /* switcheroo_prog_fastlaneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B270DF31B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_programmaticTests" */;
+			buildConfigurationList = 0B270DF31B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_prog_fastlaneTests" */;
 			buildPhases = (
 				0B270DE21B68AF1800A595E7 /* Sources */,
 				0B270DE31B68AF1800A595E7 /* Frameworks */,
@@ -148,10 +196,28 @@
 			dependencies = (
 				0B270DE81B68AF1800A595E7 /* PBXTargetDependency */,
 			);
-			name = switcheroo_programmaticTests;
+			name = switcheroo_prog_fastlaneTests;
 			productName = switcherooTests;
-			productReference = 0B270DE61B68AF1800A595E7 /* switcheroo_programmaticTests.xctest */;
+			productReference = 0B270DE61B68AF1800A595E7 /* switcheroo_prog_fastlane.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B6E449F1CDF100F00A4449F /* fs_screenshots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6E44A71CDF100F00A4449F /* Build configuration list for PBXNativeTarget "fs_screenshots" */;
+			buildPhases = (
+				0B6E449C1CDF100F00A4449F /* Sources */,
+				0B6E449D1CDF100F00A4449F /* Frameworks */,
+				0B6E449E1CDF100F00A4449F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B6E44A61CDF100F00A4449F /* PBXTargetDependency */,
+			);
+			name = fs_screenshots;
+			productName = fs_screenshots;
+			productReference = 0B6E44A01CDF100F00A4449F /* fs_screenshots.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -166,28 +232,36 @@
 				TargetAttributes = {
 					0B270DD01B68AF1800A595E7 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4ANXL353G5;
 					};
 					0B270DE51B68AF1800A595E7 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 0B270DD01B68AF1800A595E7;
 					};
+					0B6E449F1CDF100F00A4449F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0B270DD01B68AF1800A595E7;
+					};
 				};
 			};
-			buildConfigurationList = 0B270DCC1B68AF1800A595E7 /* Build configuration list for PBXProject "switcheroo_programmatic" */;
+			buildConfigurationList = 0B270DCC1B68AF1800A595E7 /* Build configuration list for PBXProject "switcheroo_prog_fastlane" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 0B270DC81B68AF1800A595E7;
 			productRefGroup = 0B270DD21B68AF1800A595E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B270DD01B68AF1800A595E7 /* switcheroo_programmatic */,
-				0B270DE51B68AF1800A595E7 /* switcheroo_programmaticTests */,
+				0B270DD01B68AF1800A595E7 /* switcheroo_prog_fastlane */,
+				0B270DE51B68AF1800A595E7 /* switcheroo_prog_fastlaneTests */,
+				0B6E449F1CDF100F00A4449F /* fs_screenshots */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +271,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B270DFB1B68B9A900A595E7 /* Main.storyboard in Resources */,
+				0B0047D91CDF40F00098A811 /* Main.storyboard in Resources */,
+				0B0047E71CDF41B80098A811 /* InfoPlist.strings in Resources */,
 				0B270DE11B68AF1800A595E7 /* LaunchScreen.xib in Resources */,
 				0B270DDE1B68AF1800A595E7 /* Images.xcassets in Resources */,
 			);
@@ -207,6 +282,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0047EC1CDF41B80098A811 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6E449E1CDF100F00A4449F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0047E21CDF41B80098A811 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,21 +315,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B6E449C1CDF100F00A4449F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6E44A31CDF100F00A4449F /* fs_screenshots.swift in Sources */,
+				0B6E44AB1CDF128B00A4449F /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		0B270DE81B68AF1800A595E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B270DD01B68AF1800A595E7 /* switcheroo_programmatic */;
+			target = 0B270DD01B68AF1800A595E7 /* switcheroo_prog_fastlane */;
 			targetProxy = 0B270DE71B68AF1800A595E7 /* PBXContainerItemProxy */;
+		};
+		0B6E44A61CDF100F00A4449F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B270DD01B68AF1800A595E7 /* switcheroo_prog_fastlane */;
+			targetProxy = 0B6E44A51CDF100F00A4449F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0B0047D71CDF40F00098A811 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0047D81CDF40F00098A811 /* Base */,
+				0B0047DD1CDF41060098A811 /* zh-Hans */,
+				0B0047DF1CDF41070098A811 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B0047E41CDF41B80098A811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0047E31CDF41B80098A811 /* zh-Hans */,
+				0B0047EF1CDF41D50098A811 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B0047E91CDF41B80098A811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0047E81CDF41B80098A811 /* zh-Hans */,
+				0B0047F01CDF41D50098A811 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B0047EE1CDF41B80098A811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0047ED1CDF41B80098A811 /* zh-Hans */,
+				0B0047F11CDF41D60098A811 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		0B270DDF1B68AF1800A595E7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0B270DE01B68AF1800A595E7 /* Base */,
+				0B0047CB1CDF3D5D0098A811 /* zh-Hans */,
+				0B0047CC1CDF3D630098A811 /* zh-Hant */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -341,10 +478,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = switcheroo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = switcheroo_programmatic;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tarokosoft.switcheroo-prog-fastlane";
+				PRODUCT_NAME = switcheroo_prog_fastlane;
 			};
 			name = Debug;
 		};
@@ -352,10 +490,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = switcheroo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = switcheroo_programmatic;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tarokosoft.switcheroo-prog-fastlane";
+				PRODUCT_NAME = switcheroo_prog_fastlane;
 			};
 			name = Release;
 		};
@@ -374,7 +513,7 @@
 				INFOPLIST_FILE = switcherooTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = switcheroo_programmaticTests;
+				PRODUCT_NAME = switcheroo_prog_fastlane;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switcheroo.app/switcheroo";
 			};
 			name = Debug;
@@ -390,15 +529,42 @@
 				INFOPLIST_FILE = switcherooTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hackingwithswift.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = switcheroo_programmaticTests;
+				PRODUCT_NAME = switcheroo_prog_fastlane;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switcheroo.app/switcheroo";
+			};
+			name = Release;
+		};
+		0B6E44A81CDF100F00A4449F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = fs_screenshots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tarokosoft.fs-screenshots";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = switcheroo_prog_fastlane;
+			};
+			name = Debug;
+		};
+		0B6E44A91CDF100F00A4449F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = fs_screenshots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tarokosoft.fs-screenshots";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = switcheroo_prog_fastlane;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B270DCC1B68AF1800A595E7 /* Build configuration list for PBXProject "switcheroo_programmatic" */ = {
+		0B270DCC1B68AF1800A595E7 /* Build configuration list for PBXProject "switcheroo_prog_fastlane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B270DEE1B68AF1800A595E7 /* Debug */,
@@ -407,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B270DF01B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_programmatic" */ = {
+		0B270DF01B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_prog_fastlane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B270DF11B68AF1800A595E7 /* Debug */,
@@ -416,11 +582,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B270DF31B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_programmaticTests" */ = {
+		0B270DF31B68AF1800A595E7 /* Build configuration list for PBXNativeTarget "switcheroo_prog_fastlaneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B270DF41B68AF1800A595E7 /* Debug */,
 				0B270DF51B68AF1800A595E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6E44A71CDF100F00A4449F /* Build configuration list for PBXNativeTarget "fs_screenshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6E44A81CDF100F00A4449F /* Debug */,
+				0B6E44A91CDF100F00A4449F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

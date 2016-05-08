@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>screenshots.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>switcheroo_advanced.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -25,6 +30,11 @@
 			<true/>
 		</dict>
 		<key>0B270DE51B68AF1800A595E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B6E449F1CDF100F00A4449F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

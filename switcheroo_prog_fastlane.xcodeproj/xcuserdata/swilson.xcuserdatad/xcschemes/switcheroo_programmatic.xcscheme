@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0B270DD01B68AF1800A595E7"
-               BuildableName = "switcheroo_programmatic.app"
-               BlueprintName = "switcheroo_programmatic"
-               ReferencedContainer = "container:switcheroo_programmatic.xcodeproj">
+               BuildableName = "switcheroo_prog_fastlane.app"
+               BlueprintName = "switcheroo_prog_fastlane"
+               ReferencedContainer = "container:switcheroo_prog_fastlane.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B6E449F1CDF100F00A4449F"
+               BuildableName = "fs_screenshots.xctest"
+               BlueprintName = "fs_screenshots"
+               ReferencedContainer = "container:switcheroo_prog_fastlane.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0B270DD01B68AF1800A595E7"
-            BuildableName = "switcheroo_programmatic.app"
-            BlueprintName = "switcheroo_programmatic"
-            ReferencedContainer = "container:switcheroo_programmatic.xcodeproj">
+            BuildableName = "switcheroo_prog_fastlane.app"
+            BlueprintName = "switcheroo_prog_fastlane"
+            ReferencedContainer = "container:switcheroo_prog_fastlane.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0B270DD01B68AF1800A595E7"
-            BuildableName = "switcheroo_programmatic.app"
-            BlueprintName = "switcheroo_programmatic"
-            ReferencedContainer = "container:switcheroo_programmatic.xcodeproj">
+            BuildableName = "switcheroo_prog_fastlane.app"
+            BlueprintName = "switcheroo_prog_fastlane"
+            ReferencedContainer = "container:switcheroo_prog_fastlane.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0B270DD01B68AF1800A595E7"
-            BuildableName = "switcheroo_programmatic.app"
-            BlueprintName = "switcheroo_programmatic"
-            ReferencedContainer = "container:switcheroo_programmatic.xcodeproj">
+            BuildableName = "switcheroo_prog_fastlane.app"
+            BlueprintName = "switcheroo_prog_fastlane"
+            ReferencedContainer = "container:switcheroo_prog_fastlane.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

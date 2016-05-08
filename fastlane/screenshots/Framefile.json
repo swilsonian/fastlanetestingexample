@@ -1,0 +1,86 @@
+{
+  "default": {
+    "keyword": {
+      "fonts": [
+        {
+          "font": "./fonts/mplus-1m-bold-webfont.ttf",
+          "supported": ["de-DE", "en-US", "es-ES", "fr-FR", "it-IT", "nl-NL", "sv-SE", "pt-BR"]
+        },
+        {
+          "font": "./fonts/PingFang.ttc",
+          "supported": ["zh-Hans","zh-Hant"]
+        }
+      ]
+    },
+    "title": {
+      
+      "fonts": [
+        {
+          "font": "./fonts/mplus-1m-bold-webfont.ttf",
+          "supported": ["de-DE", "en-US", "es-ES", "fr-FR", "it-IT", "nl-NL", "sv-SE", "pt-BR"],
+          "color": "#d21559"
+        },
+        {
+          "font": "./fonts/PingFang.ttc",
+          "supported": ["zh-Hans","zh-Hant"],
+          "color": "#d21559"
+        }
+      ]
+
+    },
+
+    "background": "./background.jpg",
+    "padding": 50
+  },
+
+
+  "data": [
+    {
+      "filter": "1_tealController",
+      "keyword": {
+        "color": "#d21559"
+      },
+      "title": {
+        "color": "#545454"
+      }
+    },
+    {
+      "filter": "2_abcText",
+      "keyword": {
+        "color": "#d21559"
+      },
+      "title": {
+        "color": "#545454"
+      }
+    },
+    {
+      "filter": "3_grayController",
+      "keyword": {
+        "color": "#d21559"
+      },
+      "title": {
+        "color": "#545454"
+      }
+
+    },
+    {
+      "filter": "4_123Text",
+      "keyword": {
+        "color": "#d21559"
+      },
+      "title": {
+        "color": "#545454"
+      }
+    },
+    {
+      "filter": "5_backToTeal",
+      "keyword": {
+        "color": "#d21559"
+      },
+      "title": {
+        "color": "#545454"
+      }
+    }
+               
+  ]
+}
