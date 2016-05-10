@@ -34,9 +34,18 @@
   },
 
 
-  "data": [
+  "data": [ 
     {
-      "filter": "1_tealController",
+      "filter": "0_tealController",
+      "keyword": {
+        "color": "#d21559"
+      },
+      "title": {
+        "color": "#545454"
+      }
+    },
+    {
+      "filter": "1_tealControllerWithAlert",
       "keyword": {
         "color": "#d21559"
       },
@@ -65,15 +74,6 @@
     },
     {
       "filter": "4_123Text",
-      "keyword": {
-        "color": "#d21559"
-      },
-      "title": {
-        "color": "#545454"
-      }
-    },
-    {
-      "filter": "5_backToTeal",
       "keyword": {
         "color": "#d21559"
       },

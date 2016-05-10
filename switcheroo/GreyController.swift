@@ -14,21 +14,19 @@ protocol GrayReturneeDelegate {
 
 class GreyController: UIViewController {
     
-
     @IBOutlet weak var grayLabel: UILabel!
     @IBOutlet weak var grayTextField: UITextField!
     var grayLabelText: String = ""
     
+    @IBOutlet weak var centerLabel: UILabel!
     var senderController: GrayReturneeDelegate? = nil
-   
- 
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         grayLabel.text = grayLabelText
+        centerLabel.text = NSLocalizedString("USA English", comment:"")
     }
     
     @IBAction func returnToWhite(sender: AnyObject) {
@@ -36,15 +34,7 @@ class GreyController: UIViewController {
         self.senderController?.setLabelMessage(self.grayTextField!.text!)
         
     }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let whiteController = segue.destinationViewController as! ViewController
-        
-        // We can do this because we know the white controller already exists.
-        whiteController.whiteLabel.text = grayTextField.text
-    }
-
-    
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

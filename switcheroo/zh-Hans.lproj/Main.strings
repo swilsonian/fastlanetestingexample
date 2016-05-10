@@ -2,7 +2,7 @@
 "FeM-YN-wOd.accessibilityIdentifier" = "grayButton";
 
 /* Class = "UIButton"; normalTitle = "Send Back"; ObjectID = "FeM-YN-wOd"; */
-"FeM-YN-wOd.normalTitle" = "回去";
+"FeM-YN-wOd.normalTitle" = "确认";
 
 /* Class = "UITextField"; accessibilityIdentifier = "tealTextBox"; ObjectID = "Vug-wP-p3i"; */
 "Vug-wP-p3i.accessibilityIdentifier" = "tealTextBox";
@@ -20,8 +20,8 @@
 "szL-Gw-dzg.accessibilityIdentifier" = "tealButton";
 
 /* Class = "UIButton"; normalTitle = "Send"; ObjectID = "szL-Gw-dzg"; */
-"szL-Gw-dzg.normalTitle" = "送";
+"szL-Gw-dzg.normalTitle" = "确认";
 
 /* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "zpt-jJ-DE6"; */
-"zpt-jJ-DE6.title" = "回去";
+"zpt-jJ-DE6.title" = "确认";
 

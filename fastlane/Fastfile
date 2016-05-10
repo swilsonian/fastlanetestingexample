@@ -31,16 +31,14 @@ lane :photos do
 
   frameit
   
-  slack(
-    message: "Framing finished."
-  )
+  slack(message: "Framing finished.")
 
 
   deliver(skip_binary_upload: true,
           skip_metadata: true,
           force: true)
 
-  slack("uploaded screenshots to app store. ")
+  slack(message: "uploaded screenshots to app store. ")
 
 end
  
