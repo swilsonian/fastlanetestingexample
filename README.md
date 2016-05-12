@@ -5,6 +5,6 @@
 <li> Install FastLane: https://github.com/fastlane/fastlane#installation (or see my slides above)
 <li> Go to project folder in Terminal
 <li> $ fastlane ios photos
-<li> $ follow prompts
+<li> Follow prompts
 </ul>
 
